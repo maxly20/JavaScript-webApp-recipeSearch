@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&display=swap');
 * {
-  padding: 0;
-  margin: 0;
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 img {
-  width: 100%;
   height: 100%;
+  width: 100%;
   object-fit: cover;
 }
 html {
@@ -15,13 +15,13 @@ html {
 }
 
 section {
-  min-height: 100vh;
-  width: 100%;
+  background-color: whitesmoke;
   display: flex;
   align-items: center;
   justify-content: center;
+  min-height: 100vh;
+  width: 100%;
   padding: 100px 0;
-  background-color: whitesmoke;
 }
 .container {
   width: 100%;
@@ -29,8 +29,8 @@ section {
   max-width: 1200px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
 .brand {
   text-align: center;
